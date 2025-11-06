@@ -21,7 +21,7 @@
 title: Henry Beale
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-Cognitive neuroscientist.
+ Cognitive neuroscientist.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://henrybeale.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 bluesky_username: bealebrains
