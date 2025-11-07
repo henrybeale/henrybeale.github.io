@@ -2,14 +2,14 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: page
+layout: page-no-title
 title: Research
-permalink: / 
 ---
+
 
 <div style="display: flex; align-items: center; gap: 1.5rem;">
   <div style="flex: 1;">
-    <img src="{{ '/assets/images/profile.jpeg' | relative_url }}" alt="Profile photo" style="width: 100%; border-radius: 30px;">
+    <img src="{{ '/assets/images/profile.jpeg' | relative_url }}" alt="Profile photo" style="width: 100%; border-radius: 40px;">
   </div>
   <div style="flex: 2;">
     <p>
@@ -20,5 +20,3 @@ permalink: /
     </p>
   </div>
 </div>
-
-
