@@ -3,7 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page-no-title
-title: Research
 ---
 
 
@@ -20,3 +19,22 @@ title: Research
     </p>
   </div>
 </div>
+
+<div style="height: 1rem;"></div>
+
+<table style="margin:auto; text-align:center;">
+  <tr>
+    <td>
+      <a href="mailto:henrybeale@gmail.com">henry.beale@gmail.com</a>
+    </td>
+    <td>
+      <a href="https://bsky.app/profile/bealebrains.bsky.social" target="_blank" rel="noopener">Bluesky</a>
+    </td>
+    <td>
+      <a href="https://orcid.org/0000-0003-4176-3787" target="_blank" rel="noopener">ORCID</a>
+    </td>
+    <td>
+      <a href="https://scholar.google.com/citations?user=v7bH_kQAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+    </td>
+  </tr>
+</table>

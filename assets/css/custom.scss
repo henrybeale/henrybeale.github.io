@@ -4,3 +4,51 @@
 .site-title {
   font-weight: 900;
 }
+
+.pdf-container {
+  height: 85vh;                 /* big, but leaves room for header */
+  overflow: auto;               /* enable scrolling */
+  -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional: slightly shorter on very small screens */
+@media (max-width: 480px) {
+  .pdf-container { height: 78vh; }
+}
+
+/* LaTeX-style tables: heavy top rule, light bottom rule, no verticals */
+table {
+  margin: 2rem auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  font-size: 14pt;
+  text-align: center;
+  vertical-align: middle;
+  border-top: 3px solid #000;   /* heavy top rule */
+  border-bottom: 1px solid #000; /* thin bottom rule */
+  border-left: none;
+  border-right: none;
+}
+
+/* Remove all vertical and internal lines */
+table td,
+table th {
+  border: none;
+  padding: 0.6rem 1.4rem;
+  vertical-align: middle;
+}
+
+/* Blue LaTeX-style links */
+table a {
+  color: #0645ad;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+table a:hover {
+  text-decoration: underline;
+}
