@@ -52,3 +52,9 @@ table a {
 table a:hover {
   text-decoration: underline;
 }
+
+/* Make a single row of 4 cells fit on small screens */
+@media (max-width: 600px) {
+  table { table-layout: fixed; }          /* forces columns to shrink */
+  table td, table th { padding: 0.5rem; } /* tighter padding on phones */
+}
