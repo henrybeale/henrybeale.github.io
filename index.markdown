@@ -5,8 +5,7 @@
 layout: page-no-title
 ---
 
-
-<div style="display: flex; align-items: center; gap: 1.5rem;">
+<!-- <div style="display: flex; align-items: center; gap: 1.5rem;">
   <div style="flex: 1;">
     <img src="{{ '/assets/images/profile.jpeg' | relative_url }}" alt="Profile photo" style="width: 100%; border-radius: 40px;">
   </div>
@@ -18,7 +17,22 @@ layout: page-no-title
       design (<strong>psychophysics</strong>), and simulation-based modelling of what it is that neurons do.
     </p>
   </div>
+</div> -->
+
+<div class="profile-block">
+  <div class="profile-image">
+    <img src="{{ '/assets/images/profile.jpeg' | relative_url }}" alt="Profile photo">
+  </div>
+  <div class="profile-text">
+    <p>
+      Our visual experience is shaped by the environment and by the internal dynamics of brain activity.
+      My PhD research aims to understand how rhythmic oscillations in neural excitability influence the computations
+      that underlie visual behaviour. My main tools are human scalp <strong>EEG</strong>, careful stimulus and experimental
+      design (<strong>psychophysics</strong>), and simulation-based modelling of what it is that neurons do.
+    </p>
+  </div>
 </div>
+
 
 <div style="height: 1rem;"></div>
 
