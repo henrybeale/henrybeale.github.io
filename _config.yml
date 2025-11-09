@@ -23,7 +23,7 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
  Henry Beale is a cognitive neuroscientist and experimental psychologist conducting research into the neural mechanisms of sensory processing and visual perception. He uses computational modelling, psychophysics, and neuroimaging to understand how the brain processes create our rich visual experience and let us interact with the world.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://henrybeale.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.henrybeale.com" # the base hostname & protocol for your site, e.g. http://example.com
 #bluesky_username: bealebrains
 #github_username:  henrybeale
 
