@@ -17,7 +17,7 @@ layout: page-no-title
     </p>
   </div>
 </div> -->
-
+<h1>About me</h1>
 <div class="profile-block">
   <div class="profile-image">
     <img src="{{ '/assets/images/profile.jpeg' | relative_url }}" alt="Profile photo">
